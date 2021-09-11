@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
 
 :root {
-  --primary-color: #7c3aed;
-  --header-color: #6b7280;
+  --primary-color: #c48207;
+  --header-color: #3575f7;
   --grey-color: #f3f4f6;
 }
 
 body {
   font-family: "Source Sans Pro", sans-serif;
   margin: 0px;
+  background-color: #f8d188;
 }
 
 hr {
@@ -39,6 +40,7 @@ hr {
   color: var (--primary-color);
   border-radius: 0.5rem;
   border: 1px solid var(--primary-color);
+  background-color: white;
 }
 
 .list-non-bullet {
@@ -71,6 +73,7 @@ hr {
 
 .navigation .link-active {
   font-weight: bold;
+  background-color: red;
 }
 
 .logo {
